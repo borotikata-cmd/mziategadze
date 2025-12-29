@@ -20,7 +20,7 @@ body {
     color: var(--text-primary);
 }
 body:not(.gallery-page) {
-    cursor: none;
+    cursor: auto !important; /* ეს დააბრუნებს ჩვეულებრივ კურსორს */
 }
 
 header {
