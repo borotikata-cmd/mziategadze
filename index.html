@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Art from Kata - A Visual Journey</title>
+    <meta name="description" content="Welcome to the visual journey of Katerina, a Tbilisi-based artist and digital illustrator. Explore a collection of evocative artworks and animations.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="preloader"><div class="preloader-logo"><span>A</span><span>r</span><span>t</span><span>&nbsp;</span><span>f</span><span>r</span><span>o</span><span>m</span><span>&nbsp;</span><span>K</span><span>a</span><span>t</span><span>a</span></div></div>
+    <div class="spotlight"></div>
+
+    <header>
+        <nav>
+            <a href="index.html" class="logo">Art from Kata</a>
+            <ul>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="mailto:your.email@example.com">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero full-screen">
+            <div class="hero-content"><h1>A Visual Journey</h1><p>Scroll to explore the art of Kata.</p></div>
+        </section>
+
+        <section class="feature-section" data-animation="scale-out">
+            <div class="feature-content">
+                <div class="image-panel"><img class="lazy" data-src="Artwork1.jpg" alt="Blind to Beauty"></div>
+                <div class="text-panel">
+                    <div class="text-content">
+                        <h2>Blind to Beauty</h2>
+                        <p>it's a beautifully rendered piece that showcases a strong command of mood, light, and subtle storytelling. It feels less like a simple portrait and more like a single frame from a much larger, more complex narrative.</p>
+                        <a href="Blind-to-Beauty.html" class="view-project-link">View Project &rarr;</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="feature-section" data-animation="slide-in">
+            <div class="feature-content">
+                <div class="image-panel"><img class="lazy" data-src="Artwork30.jpg" alt="The Silent Voyage"></div>
+                <div class="text-panel">
+                    <div class="text-content">
+                        <h2>The Silent Voyage</h2>
+                        <p>Exploring the quiet solitude of a journey without a known destination.</p>
+                        <a href="river-journey.html" class="view-project-link">View Project &rarr;</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="feature-section" data-animation="reveal-up">
+            <div class="feature-content">
+                <div class="image-panel"><img class="lazy" data-src="Artwork8.jpg" alt="Submerged"></div>
+                <div class="text-panel">
+                    <div class="text-content">
+                        <h2>Submerged</h2>
+                        <p>A piece about vulnerability and curiosity. The eyes tell a story of a world half-seen, a perspective from just below the surface, where reality is distorted and beautiful. The frog acts as a silent observer, a creature of two worlds, deepening the surreal mood.</p>
+                        <a href="Submerged.html" class="view-project-link">View Project &rarr;</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 Art from Kata</p>
+        <div class="social-links">
+            <a href="https://www.instagram.com/artfromkata/" target="_blank" rel="noopener noreferrer" aria-label="Instagram Profile"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg></a>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/@studio-freight/lenis@1.0.42/dist/lenis.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
